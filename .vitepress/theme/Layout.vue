@@ -1,0 +1,22 @@
+<script setup lang="ts">
+import { useData } from 'vitepress'
+import DefaultTheme from 'vitepress/theme'
+import BackToTop from './components/BackToTop.vue'
+
+const { frontmatter, isDark } = useData()
+const { Layout } = DefaultTheme
+</script>
+
+<template>
+  <Layout>
+    <!-- 自定义首页 -->
+    <template #home-hero-before>
+      <slot name="home-hero-before" />
+    </template>
+
+    <!-- 自定义页脚 -->
+    <template #layout-bottom>
+      <BackToTop />
+    </template>
+  </Layout>
+</template>

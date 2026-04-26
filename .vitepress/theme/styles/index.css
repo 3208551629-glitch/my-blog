@@ -1,0 +1,125 @@
+@import './variables.css';
+
+/* 全局样式 */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 文章卡片样式 */
+.post-card {
+  border-radius: var(--radius-lg);
+  background: var(--vp-c-bg-soft);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  overflow: hidden;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* 标签样式 */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-full);
+  background: var(--vp-c-bg-mute);
+  font-size: 0.85rem;
+  color: var(--vp-c-text-light);
+  transition: all var(--transition-fast);
+}
+
+.tag:hover {
+  background: var(--vp-c-brand);
+  color: white;
+}
+
+/* 归档时间线 */
+.archive-timeline {
+  position: relative;
+  padding-left: var(--spacing-lg);
+}
+
+.archive-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--vp-c-divider);
+}
+
+.archive-item {
+  position: relative;
+  padding: var(--spacing-sm) 0;
+}
+
+.archive-item::before {
+  content: '';
+  position: absolute;
+  left: calc(-1 * var(--spacing-lg) + 4px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--vp-c-brand);
+}
+
+/* 返回顶部按钮 */
+.back-to-top {
+  position: fixed;
+  bottom: var(--spacing-xl);
+  right: var(--spacing-xl);
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-full);
+  background: var(--vp-c-brand);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-md);
+  z-index: 999;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .post-card {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .back-to-top {
+    bottom: var(--spacing-md);
+    right: var(--spacing-md);
+    width: 40px;
+    height: 40px;
+  }
+}
