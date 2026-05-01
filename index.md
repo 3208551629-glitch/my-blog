@@ -6,7 +6,7 @@ hero:
   text: 记录学习与成长
   tagline: 技术 · 生活 · 思考
   image:
-    src: /images/hero.png
+    src: /images/hero.svg
     alt: 博客封面
   actions:
     - theme: brand

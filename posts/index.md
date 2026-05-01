@@ -6,6 +6,42 @@ title: 文章列表
 
 ## 最新文章
 
+### [《穷爸爸富爸爸》读书笔记](/posts/rich-dad-poor-dad-review)
+
+2026年4月26日 · 随笔
+
+《穷爸爸富爸爸》是罗伯特·清崎的经典财商教育书籍，这本书改变了我对金钱和财富的认知方式。
+
+### [React Hooks 入门指南](/posts/react-hooks-guide)
+
+2026年4月25日 · 技术
+
+React 16.8 引入了 Hooks，让你在不编写 class 的情况下使用 state 和其他 React 特性。
+
+### [Node.js 异步编程详解](/posts/nodejs-async-programming)
+
+2026年4月24日 · 技术
+
+Node.js 的核心特性是异步非阻塞 I/O，理解异步编程模式对于 Node.js 开发至关重要。
+
+### [Docker 容器化部署实践](/posts/docker-deployment-guide)
+
+2026年4月23日 · 技术
+
+Docker 让应用的打包、分发和部署变得简单一致，是现代 DevOps 的核心工具。
+
+### [RESTful API 设计最佳实践](/posts/restful-api-design)
+
+2026年4月22日 · 技术
+
+RESTful API 是现代 Web 服务的主流接口设计风格，良好的设计能提升开发效率和用户体验。
+
+### [前端安全防护指南](/posts/frontend-security-guide)
+
+2026年4月21日 · 技术
+
+前端安全是 Web 开发中不可忽视的重要环节，了解常见攻击方式和防护措施能有效保护用户数据。
+
 ### [Claude Code 入门指南](/posts/claude-code-intro)
 
 2026年4月20日 · 技术
