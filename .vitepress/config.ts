@@ -1,14 +1,14 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: '我的博客',
-  description: '个人技术博客',
+  title: '熊华章的博客',
+  description: '熊华章的个人技术博客',
   lang: 'zh-CN',
   base: '/my-blog/',
 
   themeConfig: {
     logo: '/images/logo.svg',
-    siteTitle: '我的博客',
+    siteTitle: '熊华章的博客',
 
     nav: [
       { text: '首页', link: '/' },
