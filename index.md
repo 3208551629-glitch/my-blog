@@ -20,12 +20,15 @@ features:
   - icon: 📝
     title: 技术笔记
     details: 记录前端、后端、DevOps 等技术学习心得
+    link: /categories/tech-notes
   - icon: 💡
     title: 项目实战
     details: 分享实际项目中的经验与踩坑记录
+    link: /categories/project-practice
   - icon: 🎯
     title: 成长思考
     details: 关于职业发展、学习方法、效率提升的思考
+    link: /categories/growth-thinking
 ---
 
 <style>
