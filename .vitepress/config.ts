@@ -13,6 +13,14 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '文章', link: '/posts/' },
+      {
+        text: '分类',
+        items: [
+          { text: '📝 技术笔记', link: '/categories/tech-notes' },
+          { text: '💡 项目实战', link: '/categories/project-practice' },
+          { text: '🎯 成长思考', link: '/categories/growth-thinking' }
+        ]
+      },
       { text: '归档', link: '/archives/' },
       { text: '标签', link: '/tags/' },
       { text: '关于', link: '/about/' }
