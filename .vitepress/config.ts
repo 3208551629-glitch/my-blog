@@ -4,7 +4,7 @@ export default defineConfig({
   title: '我的博客',
   description: '个人技术博客',
   lang: 'zh-CN',
-  base: '/my-blog/',
+  base: '/gl/',
 
   themeConfig: {
     logo: '/images/logo.svg',
