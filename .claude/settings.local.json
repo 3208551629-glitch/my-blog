@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__filesystem__directory_tree",
+      "Bash(curl *)",
+      "Bash(powershell *)",
+      "Bash(npm run *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh auth *)",
+      "Bash(npx wrangler *)",
+      "Bash(npx vercel *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
