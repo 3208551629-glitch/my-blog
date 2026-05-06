@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 熊华章的博客
+  name: 霄鸿臻的博客
   text: 记录学习与成长
   tagline: 技术 · 生活 · 思考
   image:

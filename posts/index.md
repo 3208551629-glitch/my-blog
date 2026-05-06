@@ -62,7 +62,7 @@ Claude Code 是 Anthropic 推出的 AI 编程助手命令行工具。本文介�
 
 深入掌握 Claude Code 的高级功能：自定义规则文件让 AI 遵循项目规范、Hooks 系统实现工具执行前后的自动化处理、多模型协作策略（Haiku/Sonnet/Opus 按任务复杂度选择）、上下文管理（压缩、记忆系统）、工作流自动化（创建 Skill），让 AI 助手发挥更大价值。
 
-### [欢迎来到熊华章的博客](/posts/hello-world)
+### [欢迎来到霄鸿臻的博客](/posts/hello-world)
 
 2026年4月18日 · 随笔
 
