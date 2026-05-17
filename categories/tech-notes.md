@@ -65,3 +65,7 @@ Claude Code 是 Anthropic 推出的 AI 编程助手命令行工具。介绍安�
 ### [Claude Code 实战：构建博客系统](/posts/claude-code-practice)
 
 记录使用 Claude Code 从零构建博客系统的完整过程，包括项目规划、功能开发、问题调试和优化改进，AI 辅助比例约 70%。
+
+---
+
+> 技术是解决问题的工具，持续学习才能跟上快速变化的开发世界。

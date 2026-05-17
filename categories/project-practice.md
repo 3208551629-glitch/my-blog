@@ -16,6 +16,16 @@ title: 项目实战
 
 第一篇博客文章，介绍技术选型：VitePress 构建、Vue 3 框架。展示代码高亮、数学公式支持等功能，说明博客的定位和未来规划。
 
+## AI 应用开发
+
+### 📌 [CC Remote — 用浏览器远程控制 Claude Code](/posts/cc-remote-browser-control-claude-code)
+
+一个轻量级 Web UI，通过浏览器远程控制本地 Claude Code CLI。零构建工具、零前端框架、零 SDK 依赖，Express + 单 HTML 文件实现 SSE 流式通信、思考过程可视化、工具调用卡片、会话持久化、移动端适配和深色模式。
+
+### [AI 驱动的求职学习助手 - 全栈项目实战](/posts/ai-job-learning-assistant)
+
+包含 Electron 桌面应用、微信小程序和 Android 原生应用三个版本的 AI 驱动求职学习助手。详细介绍三端技术架构、核心功能模块（JD分析、技能档案、学习路线、面试准备）、AI 集成方案、数据存储方案，以及 Android 版本的 Clean Architecture 和 Jetpack Compose 实现。
+
 ## 部署实践
 
 ### [Docker 容器化部署实践](/posts/docker-deployment-guide)
