@@ -8,7 +8,13 @@ title: 文章列表
 
 ## 最新文章
 
-### 📌 [《从0到1》读书笔记 - 开启商业与未来的秘密](/posts/zero-to-one-review)
+### 📌 [CC Remote — 用浏览器远程控制 Claude Code](/posts/cc-remote-browser-control-claude-code)
+
+2026年5月17日 · 项目实战
+
+一个轻量级 Web UI，让你通过浏览器远程控制本地的 Claude Code CLI。核心设计极简：零构建工具、零前端框架、零 SDK 依赖，一个 Express 服务 + 一个 HTML 文件搞定一切。支持 SSE 流式响应、思考过程可视化、工具调用卡片、会话持久化、双历史记录、文件树浏览、移动端适配和深色模式。
+
+### [《从0到1》读书笔记 - 开启商业与未来的秘密](/posts/zero-to-one-review)
 
 2026年5月7日 · 读书笔记
 
