@@ -23,6 +23,7 @@ export default defineConfig({
       },
       { text: '归档', link: '/archives/' },
       { text: '标签', link: '/tags/' },
+      { text: '工具', link: '/codesnap/' },
       { text: '关于', link: '/about/' }
     ],
 

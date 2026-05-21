@@ -8,6 +8,12 @@ title: 文章列表
 
 ## 最新文章
 
+### 📌 [CodeSnap — 代码片段美化分享工具](/posts/codesnap-intro)
+
+2026年5月21日 · 项目实战
+
+将代码片段转化为精美的可分享图片，支持 10 种代码主题、8 种渐变背景、3 种窗口样式、一键导出 PNG/SVG、复制到剪贴板。纯前端架构，零后端依赖，中文开发者首选的代码美化工具。
+
 ### 📌 [CC Remote — 用浏览器远程控制 Claude Code](/posts/cc-remote-browser-control-claude-code)
 
 2026年5月17日 · 项目实战
