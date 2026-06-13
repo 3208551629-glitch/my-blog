@@ -12,15 +12,17 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 ## 项目简介
 
-SQL 工作台 — 数据库管理 Web 界面，支持 SQLite、PostgreSQL、MySQL。
+SQLBoard 是一个 SQL 工作台，提供数据库管理的 Web 界面，支持 SQLite、PostgreSQL、MySQL 等多种数据库。
+
+无需安装复杂的数据库客户端，通过浏览器即可完成数据库管理和查询操作。
 
 ## 功能特性
 
-- 多数据库支持
-- Web 界面查询执行
-- 数据导入导出
-- 连接管理
-- REST API 接口
+- **多数据库支持**：SQLite、PostgreSQL、MySQL
+- **Web 界面查询执行**：浏览器中执行 SQL 查询
+- **数据导入导出**：支持 CSV、JSON 等格式
+- **连接管理**：保存和管理多个数据库连接
+- **REST API 接口**：程序化访问数据库
 
 ## 技术栈
 
@@ -49,6 +51,16 @@ npm install
 ```bash
 npm install && npm run dev
 ```
+
+## 使用示例
+
+npm run dev
+
+## 适用场景
+
+- **开发调试**：快速查询和修改开发数据库
+- **数据分析**：执行复杂 SQL 查询并导出结果
+- **数据库管理**：轻量级数据库管理工具
 
 ## 相关链接
 

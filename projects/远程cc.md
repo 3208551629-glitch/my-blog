@@ -12,15 +12,17 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 ## 项目简介
 
-远程 Claude Code 工具 — 通过浏览器远程控制本地 Claude Code CLI。
+远程 CC 是一个通过浏览器远程控制本地 Claude Code CLI 的工具。
+
+利用 SSE（Server-Sent Events）实现实时流式响应，让你可以在任何设备上通过浏览器使用 Claude Code。
 
 ## 功能特性
 
-- 浏览器远程控制
-- SSE 实时流式响应
-- Markdown 渲染
-- 工具调用可视化
-- 移动端适配
+- **浏览器远程控制**：通过浏览器访问本地 Claude Code
+- **SSE 实时流式响应**：实时显示 AI 响应
+- **Markdown 渲染**：美观的响应展示
+- **工具调用可视化**：显示 Bash、文件操作等工具执行
+- **移动端适配**：支持手机浏览器访问
 
 ## 技术栈
 
@@ -31,7 +33,7 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 ## 项目状态
 
-- **状态**: 活跃开发中
+- **状态**: 活跃开发中 ⭐
 - **分类**: SaaS/Web
 
 
@@ -48,6 +50,16 @@ npm install
 ```bash
 npm install && npm start
 ```
+
+## 使用示例
+
+npm start
+
+## 适用场景
+
+- **远程开发**：在平板或手机上继续编码
+- **团队协作**：共享 Claude Code 会话
+- **多设备切换**：无缝切换不同设备工作
 
 ## 相关链接
 

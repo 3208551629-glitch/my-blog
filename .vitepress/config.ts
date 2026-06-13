@@ -18,7 +18,8 @@ export default defineConfig({
         items: [
           { text: '📝 技术笔记', link: '/categories/tech-notes' },
           { text: '💡 项目实战', link: '/categories/project-practice' },
-          { text: '🎯 成长思考', link: '/categories/growth-thinking' }
+          { text: '🎯 成长思考', link: '/categories/growth-thinking' },
+          { text: '🛠️ 项目集', link: '/projects/' }
         ]
       },
       { text: '归档', link: '/archives/' },

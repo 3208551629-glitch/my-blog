@@ -6,7 +6,20 @@
 }
 
 html {
+  font-size: 16px;
   scroll-behavior: smooth;
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 18px;
+  }
 }
 
 body {
@@ -15,6 +28,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* 增大内容区正文字号 */
+.vp-doc {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.vp-doc p,
+.vp-doc li {
+  font-size: 1.05rem;
+}
+
+/* 增大标题层级 */
+.vp-doc h1 { font-size: 2.2rem; }
+.vp-doc h2 { font-size: 1.7rem; }
+.vp-doc h3 { font-size: 1.35rem; }
 
 /* 文章卡片样式 */
 .post-card {

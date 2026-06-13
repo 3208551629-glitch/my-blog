@@ -12,15 +12,17 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 ## 项目简介
 
-Agent 洞察分析工具 — AI 代理分析和洞察工具。
+Agent Insight 是一个 AI 代理分析和洞察平台，让每一个 Agent 都可被观测、可被评估、可自我进化。
+
+支持 OpenCode、Claude Code 等多种 AI 开发环境，提供全生命周期的数据飞轮：数据收集 → 追踪 → 评估 → 经验沉淀 → 辅助决策。
 
 ## 功能特性
 
-- AI 代理性能分析
-- 执行流程可视化
-- 成本和效率洞察
-- 多代理对比分析
-- 实时监控和告警
+- **Agent 观测**：实时监控 Agent 执行过程和状态
+- **性能评估**：多维度评估 Agent 执行效果
+- **追踪分析**：分布式追踪 Agent 执行链路
+- **技能进化**：基于观测数据优化 Agent 技能
+- **多框架支持**：OpenCode、Claude Code、OpenClaw
 
 ## 技术栈
 
@@ -30,7 +32,7 @@ Agent 洞察分析工具 — AI 代理分析和洞察工具。
 
 ## 项目状态
 
-- **状态**: 活跃开发中
+- **状态**: 活跃开发中 ⭐
 - **分类**: AI/Agent
 
 
@@ -47,6 +49,16 @@ npm install
 ```bash
 npm install && npm run dev
 ```
+
+## 使用示例
+
+npm run dev
+
+## 适用场景
+
+- **AI 应用监控**：监控生产环境 AI Agent 运行状态
+- **性能优化**：分析 Agent 瓶颈，优化执行效率
+- **质量评估**：建立 Agent 质量评估体系
 
 ## 相关链接
 

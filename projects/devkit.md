@@ -12,15 +12,18 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 ## 项目简介
 
-开发工具包 — 变更日志、README 生成、徽章生成、代码质量分析、CI/CD 流水线、Schema 管理。
+devkit 是一个全面的开发工具集，自动化处理开发过程中的重复性文档工作。
+
+从变更日志生成到 README 自动编写，从徽章生成到代码质量分析，devkit 让开发者专注于编码。
 
 ## 功能特性
 
-- 自动生成变更日志
-- README 自动生成
-- GitHub 徽章生成
-- 代码质量分析
-- CI/CD 流水线配置
+- **自动生成变更日志**：从 Git 提交历史生成结构化 CHANGELOG
+- **README 自动生成**：根据项目结构生成专业的 README
+- **GitHub 徽章生成**：自动配置 CI 状态、版本、许可证等徽章
+- **代码质量分析**：统计代码行数、复杂度等指标
+- **CI/CD 流水线配置**：生成常用 CI/CD 配置模板
+- **Schema 管理**：JSON Schema 验证和 TypeScript 类型生成
 
 ## 技术栈
 
@@ -47,6 +50,16 @@ npm install -g @toolkits/devkit
 ```bash
 cd packages/devkit && pnpm build && pnpm test
 ```
+
+## 使用示例
+
+devkit `<command>` [options]
+
+## 适用场景
+
+- **开源项目**：自动生成专业的项目文档
+- **团队协作**：统一代码质量标准和文档规范
+- **项目初始化**：快速搭建项目基础设施
 
 ## 相关链接
 
