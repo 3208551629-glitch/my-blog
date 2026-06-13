@@ -6,11 +6,7 @@ lastUpdated: false
 
 # 📋 更新记录
 
-<ChangelogTimeline />
-
 <script setup lang="ts">
-import { ref, computed } from 'vue'
-
 const entries = [
   {
     date: '2026-06-13',
@@ -50,19 +46,17 @@ const typeClass: Record<string, string> = {
 }
 </script>
 
-<template>
-  <div class="changelog">
-    <div v-for="entry in entries" :key="entry.date" class="changelog-entry">
-      <div class="changelog-date">{{ entry.date }}</div>
-      <ul class="changelog-items">
-        <li v-for="(item, i) in entry.items" :key="i" class="changelog-item">
-          <span :class="['changelog-tag', typeClass[item.type]]">{{ typeLabel[item.type] }}</span>
-          <span>{{ item.text }}</span>
-        </li>
-      </ul>
-    </div>
+<div class="changelog">
+  <div v-for="entry in entries" :key="entry.date" class="changelog-entry">
+    <div class="changelog-date">{{ entry.date }}</div>
+    <ul class="changelog-items">
+      <li v-for="(item, i) in entry.items" :key="i" class="changelog-item">
+        <span :class="['changelog-tag', typeClass[item.type]]">{{ typeLabel[item.type] }}</span>
+        <span>{{ item.text }}</span>
+      </li>
+    </ul>
   </div>
-</template>
+</div>
 
 <style scoped>
 .changelog {
