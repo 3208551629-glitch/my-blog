@@ -29,6 +29,10 @@ features:
     title: 成长思考
     details: 关于职业发展、学习方法、效率提升的思考
     link: /categories/growth-thinking
+  - icon: 🛠️
+    title: 项目集
+    details: 个人开源项目精选合集
+    link: /projects/
 ---
 
 <style>
