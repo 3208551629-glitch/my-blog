@@ -8,6 +8,24 @@ title: 文章列表
 
 ## 最新文章
 
+### 📌 [VitePress 博客自定义 Layout 实战](/posts/vitepress-layout-customization)
+
+2026年6月13日 · 项目实战
+
+记录为本博客添加首页「最近更新时间」和「返回顶部」功能时遇到的坑与解决方案。涵盖 Layout.vue 创建、插槽选择、SSR 兼容性以及一个极易踩中的坑——`theme/index.ts` 中 `...DefaultTheme` 会覆盖自定义 Layout。
+
+### 📌 [VitePress 项目集页面搭建指南](/posts/vitepress-project-page-guide)
+
+2026年6月13日 · 项目实战
+
+从数据类型设计、卡片组件实现、搜索过滤到 Markdown 渲染避坑，完整记录如何用 VitePress 搭建一个带精选标记和搜索功能的项目集展示页面。
+
+### 📌 [VitePress 首页时间戳显示方案对比](/posts/vitepress-timestamp-approaches)
+
+2026年6月13日 · 技术
+
+对比四种在 VitePress 首页显示「最近更新时间」的实现方案：Git lastUpdated、Vite define 注入、构建脚本生成、new Date() 直出，分析各自的优劣和适用场景。
+
 ### 📌 [CodeSnap — 代码片段美化分享工具](/posts/codesnap-intro)
 
 2026年5月21日 · 项目实战

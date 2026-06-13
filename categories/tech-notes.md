@@ -32,6 +32,10 @@ CSS Grid 是现代网页布局的强大工具。全面介绍网格定义、区�
 
 详解 XSS、CSRF、点击劫持等常见威胁的原理和防护措施，提供 CSP、HttpOnly Cookie、SRI 等安全配置示例。
 
+### [VitePress 首页时间戳显示方案对比](/posts/vitepress-timestamp-approaches)
+
+对比四种在 VitePress 首页显示「最近更新时间」的实现方案：Git lastUpdated、Vite define 注入、构建脚本生成、new Date() 直出，分析各自优劣和适用场景。
+
 ## 后端开发
 
 ### [Node.js 异步编程详解](/posts/nodejs-async-programming)

@@ -8,6 +8,14 @@ title: 项目实战
 
 ## 博客系统搭建
 
+### 📌 [VitePress 博客自定义 Layout 实战](/posts/vitepress-layout-customization)
+
+记录为本博客添加首页「最近更新时间」和「返回顶部」功能时遇到的坑与解决方案。涵盖 Layout.vue 创建、插槽选择、SSR 兼容性以及一个极易踩中的坑——`theme/index.ts` 中 `...DefaultTheme` 会覆盖自定义 Layout。
+
+### 📌 [VitePress 项目集页面搭建指南](/posts/vitepress-project-page-guide)
+
+从数据类型设计、卡片组件实现、搜索过滤到 Markdown 渲染避坑，完整记录如何用 VitePress 搭建一个带精选标记和搜索功能的项目集展示页面。
+
 ### [Claude Code 实战：构建博客系统](/posts/claude-code-practice)
 
 完整记录使用 Claude Code 从零构建博客系统的过程：项目规划对话、一键生成项目结构、添加文章列表和搜索功能、调试配置错误和类型错误、性能和 SEO 优化。项目统计：25+ 文件、约 2 小时开发、70% AI 辅助比例。

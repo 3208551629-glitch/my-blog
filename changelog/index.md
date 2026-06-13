@@ -12,7 +12,9 @@ const entries = [
     date: '2026-06-13',
     items: [
       { type: 'add', text: '首页添加最近更新时间' },
-      { type: 'add', text: '添加更新记录页面' }
+      { type: 'add', text: '添加更新记录页面' },
+      { type: 'add', text: '新增 3 篇博文：VitePress Layout 定制、项目集搭建、时间戳方案对比' },
+      { type: 'update', text: '分类页同步更新新文章链接' }
     ]
   },
   {
