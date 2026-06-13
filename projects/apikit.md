@@ -55,7 +55,14 @@ cd packages/apikit && pnpm build && pnpm test
 ## 使用示例
 
 ```bash
-apikit <command> [options]
+# 从 OpenAPI 规范生成 Mock 服务器
+apikit forge openapi.yaml --port 3001
+
+# 自动化接口测试
+apikit test openapi.yaml --assert status=200
+
+# 对比两个版本的 API 差异
+apikit diff v1.yaml v2.yaml --check-breaking
 ```
 
 ## 适用场景

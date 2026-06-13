@@ -53,7 +53,13 @@ npm install && npm run dev
 
 ## 使用示例
 
+启动应用后，在 Web 界面中添加发票信息，AI 会自动生成催款邮件：
+
 ```bash
+# 启动后端（含 Celery 定时任务）
+uvicorn app.main:app --reload & celery -A app.celery worker
+
+# 启动前端
 npm run dev
 ```
 

@@ -53,8 +53,14 @@ npm install && npm start
 
 ## 使用示例
 
+启动服务后，在同一网络下的任何设备浏览器中访问 Claude Code：
+
 ```bash
+# 启动服务（默认监听 3000 端口）
 npm start
+
+# 在其他设备浏览器中访问：
+# http://<your-ip>:3000
 ```
 
 ## 适用场景

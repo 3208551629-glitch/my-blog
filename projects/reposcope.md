@@ -56,7 +56,14 @@ pnpm install && pnpm build
 ## 使用示例
 
 ```bash
+# CLI 模式 — 分析指定仓库
+reposcope analyze /path/to/repo
+
+# Web 模式 — 启动仪表板
 pnpm build && pnpm dev
+
+# 生成热力图和贡献者报告
+reposcope heatmap /path/to/repo --output report.html
 ```
 
 ## 适用场景

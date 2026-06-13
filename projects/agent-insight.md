@@ -52,8 +52,14 @@ npm install && npm run dev
 
 ## 使用示例
 
+启动 Agent Insight 服务后，在浏览器中打开仪表板即可查看 Agent 执行追踪和性能评估数据。
+
 ```bash
+# 启动服务
 npm run dev
+
+# 分析 Claude Code 会话日志
+agent-insight trace --source claude-code --session latest
 ```
 
 ## 适用场景

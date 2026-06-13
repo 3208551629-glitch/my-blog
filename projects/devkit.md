@@ -54,7 +54,14 @@ cd packages/devkit && pnpm build && pnpm test
 ## 使用示例
 
 ```bash
-devkit <command> [options]
+# 自动生成 CHANGELOG
+devkit changelog --since v1.0.0 --output CHANGELOG.md
+
+# 生成 README
+devkit readme --template standard --output README.md
+
+# 代码质量分析
+devkit quality --complexity --lines --output stats.json
 ```
 
 ## 适用场景

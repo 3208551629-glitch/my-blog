@@ -56,9 +56,7 @@ npm install && npm link
 
 ## 使用示例
 
-```bash
-安装后配置到 ~/.claude/ 目录
-```
+安装后配置到 `~/.claude/` 目录，即可在 Claude Code 中使用所有 Agent 和 Skill。
 
 ## 适用场景
 

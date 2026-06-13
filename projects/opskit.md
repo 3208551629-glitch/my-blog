@@ -55,7 +55,14 @@ cd packages/opskit && pnpm build && pnpm test
 ## 使用示例
 
 ```bash
-opskit <command> [options]
+# 查看 Docker 容器状态
+opskit docker ps --format table
+
+# 解析 cron 表达式
+opskit cronparse "0 */6 * * *"
+
+# 分析 npm 包体积
+opskit bundle-size ./dist --top 10
 ```
 
 ## 适用场景

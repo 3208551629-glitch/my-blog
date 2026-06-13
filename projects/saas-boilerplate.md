@@ -55,8 +55,19 @@ npm install && npm run db:push && npm run dev
 
 ## 使用示例
 
+初始化数据库并启动开发服务器：
+
 ```bash
+# 推送 Prisma 数据库模式
+npm run db:push
+
+# 启动开发服务器
 npm run dev
+
+# 配置环境变量：
+# STRIPE_SECRET_KEY=sk_test_xxx
+# NEXTAUTH_SECRET=your-secret
+# ANTHROPIC_API_KEY=sk-ant-xxx
 ```
 
 ## 适用场景

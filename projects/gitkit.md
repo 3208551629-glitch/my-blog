@@ -54,7 +54,14 @@ cd packages/gitkit && pnpm build && pnpm test
 ## 使用示例
 
 ```bash
-gitkit <command> [options]
+# 清理本地已合并的分支
+gitkit clean --merged --remote origin
+
+# 生成团队贡献报告
+gitkit report --since 2024-01-01 --format markdown
+
+# 查看增强版 diff
+gitkit diff HEAD~3 --ignore-whitespace --stat
 ```
 
 ## 适用场景

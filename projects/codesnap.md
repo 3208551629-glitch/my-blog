@@ -55,6 +55,13 @@ npm install && npm run dev
 
 ## 使用示例
 
+在浏览器中打开 CodeSnap，输入代码并自定义样式：
+
+1. 在编辑器中输入或粘贴代码片段
+2. 选择语言、主题和字体
+3. 选择窗口装饰风格（Mac/Windows）
+4. 点击导出按钮生成 PNG 图片
+
 ```bash
 npm run dev
 ```

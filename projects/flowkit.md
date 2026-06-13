@@ -54,7 +54,14 @@ cd packages/flowkit && pnpm build && pnpm test
 ## 使用示例
 
 ```bash
-flowkit <command> [options]
+# 运行定义好的工作流
+flowkit run deploy-workflow.yaml
+
+# 验证工作流配置
+flowkit validate my-workflow.yaml
+
+# 列出可用工作流
+flowkit list --verbose
 ```
 
 ## 适用场景

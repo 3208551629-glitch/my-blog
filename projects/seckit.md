@@ -54,7 +54,14 @@ cd packages/seckit && pnpm build && pnpm test
 ## 使用示例
 
 ```bash
-seckit <command> [options]
+# 扫描依赖包漏洞
+seckit audit --osv --output report.json
+
+# 检查 .env 文件安全性
+seckit envcheck .env --warn-leaked
+
+# 许可证合规检查
+seckit license --allow MIT,Apache-2.0
 ```
 
 ## 适用场景

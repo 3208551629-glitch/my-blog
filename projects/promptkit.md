@@ -54,7 +54,14 @@ cd packages/promptkit && pnpm build && pnpm test
 ## 使用示例
 
 ```bash
-promptkit <command> [options]
+# 测试提示词效果
+promptkit test prompt.yaml --model claude-sonnet-4-6
+
+# 多模型对比评估
+promptkit compare prompt.yaml --models claude,gpt-4
+
+# 优化提示词
+promptkit forge prompt.yaml --optimize --iterations 5
 ```
 
 ## 适用场景

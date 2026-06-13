@@ -55,7 +55,14 @@ npm install && npm run dev
 ## 使用示例
 
 ```bash
+# 启动 SQL 工作台
 npm run dev
+
+# 连接 SQLite 数据库
+# 在 Web 界面中添加连接：sqlite:///path/to/database.db
+
+# 连接 PostgreSQL 数据库
+# 在 Web 界面中添加连接：postgresql://user:pass@localhost:5432/mydb
 ```
 
 ## 适用场景
