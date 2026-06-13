@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 远程cc
 description: 远程 Claude Code 工具
 projectName: 远程cc

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: xf
 description: 数据与文件工具箱 — 27 个子命令：文件操作、哈希计算、JSON/YAML/XML/TOML/CSV 格式处理、Base64/颜色/正则/URL 等工具
 projectName: xf

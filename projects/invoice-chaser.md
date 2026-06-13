@@ -1,5 +1,4 @@
 ---
-layout: page
 title: invoice-chaser
 description: 发票追踪工具
 projectName: invoice-chaser

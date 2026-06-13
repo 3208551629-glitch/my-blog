@@ -1,5 +1,4 @@
 ---
-layout: page
 title: gitkit
 description: Git 工具包 — 仓库清理、日志分析、统计、Hooks 管理、活动脉搏、智能差异对比
 projectName: gitkit

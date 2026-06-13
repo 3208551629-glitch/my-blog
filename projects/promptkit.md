@@ -1,5 +1,4 @@
 ---
-layout: page
 title: promptkit
 description: Prompt 工程工具包 — 提示词测试、优化锻造、对比评估、模板管理
 projectName: promptkit

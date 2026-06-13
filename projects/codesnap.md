@@ -1,5 +1,4 @@
 ---
-layout: page
 title: codesnap
 description: 代码截图工具 — 生成美观的代码分享图片
 projectName: codesnap

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: sqlboard
 description: SQL 工作台 — 数据库管理 Web 界面
 projectName: sqlboard

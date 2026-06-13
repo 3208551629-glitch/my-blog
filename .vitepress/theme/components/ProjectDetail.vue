@@ -17,42 +17,45 @@ const statusMap: Record<string, { label: string; class: string }> = {
 </script>
 
 <template>
-  <div v-if="project" class="project-detail">
-    <!-- Header -->
-    <header class="project-header">
-      <nav class="breadcrumb">
-        <a href="/my-blog/projects/">项目集</a>
-        <span>/</span>
-        <span>{{ project.name }}</span>
-      </nav>
+  <div v-if="project" class="project-detail-header">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="/my-blog/projects/" class="breadcrumb-link">项目集</a>
+      <span class="breadcrumb-sep">/</span>
+      <span class="breadcrumb-current">{{ project.name }}</span>
+    </nav>
 
-      <h1 class="project-title">
-        <span v-if="project.featured">⭐</span>
-        {{ project.name }}
-      </h1>
+    <!-- Title -->
+    <h1 class="project-title">
+      <span v-if="project.featured" class="featured-icon">⭐</span>
+      {{ project.name }}
+    </h1>
 
-      <p class="project-desc">{{ project.description }}</p>
+    <!-- Description -->
+    <p class="project-desc">{{ project.description }}</p>
 
-      <div class="project-meta">
-        <span :class="['status-badge', statusMap[project.status].class]">
-          {{ statusMap[project.status].label }}
-        </span>
-        <span class="category-badge">{{ project.category }}</span>
-      </div>
+    <!-- Meta -->
+    <div class="project-meta">
+      <span :class="['status-badge', statusMap[project.status].class]">
+        {{ statusMap[project.status].label }}
+      </span>
+      <span class="category-badge">{{ project.category }}</span>
+    </div>
 
-      <div class="project-tags">
-        <span v-for="tag in project.tags" :key="tag" class="tag">{{ tag }}</span>
-      </div>
+    <!-- Tags -->
+    <div class="project-tags">
+      <span v-for="tag in project.tags" :key="tag" class="tag">{{ tag }}</span>
+    </div>
 
-      <div class="project-actions">
-        <a v-if="project.repo" :href="project.repo" target="_blank" rel="noopener" class="btn btn-primary">
-          查看仓库
-        </a>
-        <a v-if="project.url" :href="project.url" target="_blank" rel="noopener" class="btn btn-secondary">
-          在线演示
-        </a>
-      </div>
-    </header>
+    <!-- Actions -->
+    <div class="project-actions">
+      <a v-if="project.repo" :href="project.repo" target="_blank" rel="noopener" class="btn btn-primary">
+        查看仓库
+      </a>
+      <a v-if="project.url" :href="project.url" target="_blank" rel="noopener" class="btn btn-secondary">
+        在线演示
+      </a>
+    </div>
   </div>
 
   <!-- Not Found -->
@@ -65,8 +68,11 @@ const statusMap: Record<string, { label: string; class: string }> = {
 </template>
 
 <style scoped>
-.project-detail {
+/* Header Container */
+.project-detail-header {
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--vp-c-divider);
 }
 
 /* Breadcrumb */
@@ -78,17 +84,23 @@ const statusMap: Record<string, { label: string; class: string }> = {
   font-size: 0.875rem;
 }
 
-.breadcrumb a {
+.breadcrumb-link {
   color: var(--vp-c-text-2);
   text-decoration: none;
+  transition: color 0.2s;
 }
 
-.breadcrumb a:hover {
+.breadcrumb-link:hover {
   color: var(--vp-c-brand);
 }
 
-.breadcrumb span {
+.breadcrumb-sep {
   color: var(--vp-c-text-3);
+}
+
+.breadcrumb-current {
+  color: var(--vp-c-text-1);
+  font-weight: 500;
 }
 
 /* Title */
@@ -100,13 +112,19 @@ const statusMap: Record<string, { label: string; class: string }> = {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  line-height: 1.2;
+}
+
+.featured-icon {
+  font-size: 1.75rem;
+  line-height: 1;
 }
 
 /* Description */
 .project-desc {
   font-size: 1.1rem;
   color: var(--vp-c-text-2);
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 1.25rem 0;
   line-height: 1.7;
 }
 
@@ -163,7 +181,7 @@ const statusMap: Record<string, { label: string; class: string }> = {
 
 .tag {
   font-size: 0.85rem;
-  padding: 0.4rem 0.85rem;
+  padding: 0.35rem 0.75rem;
   border-radius: 6px;
   background: var(--vp-c-bg-soft);
   color: var(--vp-c-text-2);
@@ -181,7 +199,7 @@ const statusMap: Record<string, { label: string; class: string }> = {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.65rem 1.5rem;
+  padding: 0.6rem 1.25rem;
   border-radius: 8px;
   font-size: 0.9rem;
   font-weight: 500;
@@ -232,5 +250,21 @@ const statusMap: Record<string, { label: string; class: string }> = {
 .not-found p {
   color: var(--vp-c-text-2);
   margin-bottom: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .project-actions {
+    width: 100%;
+  }
+
+  .btn {
+    flex: 1;
+    justify-content: center;
+  }
 }
 </style>

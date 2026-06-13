@@ -1,5 +1,4 @@
 ---
-layout: page
 title: agent-insight
 description: Agent 洞察分析工具
 projectName: agent-insight

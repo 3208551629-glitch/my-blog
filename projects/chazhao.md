@@ -1,5 +1,4 @@
 ---
-layout: page
 title: chazhao
 description: 查找工具 — RAG 知识助手
 projectName: chazhao

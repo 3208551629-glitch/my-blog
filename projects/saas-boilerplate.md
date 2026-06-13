@@ -1,5 +1,4 @@
 ---
-layout: page
 title: saas-boilerplate
 description: SaaS 项目脚手架 — Next.js + Stripe + Prisma 全栈模板
 projectName: saas-boilerplate

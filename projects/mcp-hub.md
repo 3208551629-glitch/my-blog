@@ -1,5 +1,4 @@
 ---
-layout: page
 title: mcp-hub
 description: MCP 服务器集线器 — 统一管理 MCP 服务器配置与发现
 projectName: mcp-hub

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: everything-claude-code
 description: Claude Code 全能工具集 — 47 个 Agent、181 个 Skill、自动 Hook 工作流
 projectName: everything-claude-code

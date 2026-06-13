@@ -1,5 +1,4 @@
 ---
-layout: page
 title: devkit
 description: 开发工具包 — 变更日志、README 生成、徽章生成、代码质量分析、CI/CD 流水线、Schema 管理
 projectName: devkit

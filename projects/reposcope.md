@@ -1,5 +1,4 @@
 ---
-layout: page
 title: reposcope
 description: 仓库范围分析工具
 projectName: reposcope

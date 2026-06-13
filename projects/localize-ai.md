@@ -1,5 +1,4 @@
 ---
-layout: page
 title: localize-ai
 description: AI 本地化翻译工具
 projectName: localize-ai

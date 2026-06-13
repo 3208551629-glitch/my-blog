@@ -1,5 +1,4 @@
 ---
-layout: page
 title: opskit
 description: 运维工具包 — Docker 管理、监控、定时任务、缓存清理、包体积分析、数据库模式管理
 projectName: opskit

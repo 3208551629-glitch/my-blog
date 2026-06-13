@@ -1,5 +1,4 @@
 ---
-layout: page
 title: landing-ai
 description: AI 落地页生成器 — 输入业务描述，AI 自动生成落地页
 projectName: landing-ai

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: apikit
 description: API 工具包 — 接口测试、快速构建、可视化、差异对比、哨兵监控、Webhook 测试
 projectName: apikit

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: flowkit
 description: 工作流引擎 — 工作流编排、Agent 代理执行、项目规划、自动化构建、AI 内容生成
 projectName: flowkit

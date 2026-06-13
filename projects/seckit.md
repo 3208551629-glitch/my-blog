@@ -1,5 +1,4 @@
 ---
-layout: page
 title: seckit
 description: 安全与配置工具包 — 依赖审计、配置检查、环境变量管理、许可证合规、端口扫描
 projectName: seckit
