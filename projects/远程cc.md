@@ -11,16 +11,24 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 远程cc
+## 项目简介
 
-远程 Claude Code 工具
+远程 Claude Code 工具 — 通过浏览器远程控制本地 Claude Code CLI。
+
+## 功能特性
+
+- 浏览器远程控制
+- SSE 实时流式响应
+- Markdown 渲染
+- 工具调用可视化
+- 移动端适配
 
 ## 技术栈
 
-<div class="tech-stack">
-- **Claude**
-- **远程**
-</div>
+- **Node.js**
+- **Express 5**
+- **SSE**
+- **dotenv**
 
 ## 项目状态
 
@@ -28,9 +36,23 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 - **分类**: SaaS/Web
 
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install
+```
+
+### 运行
+
+```bash
+npm install && npm start
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/remote-cc)
+- [GitHub 仓库](${GH}/remote-cc)
 
 
 <div class="back-to-projects">

@@ -11,16 +11,26 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 reposcope
+## 项目简介
 
-仓库范围分析工具
+仓库范围分析工具 — Git 仓库分析仪表板，热力图、贡献者、复杂度分析。
+
+## 功能特性
+
+- Git 仓库热力图
+- 贡献者分析
+- 代码复杂度评估
+- AI 智能摘要
+- CLI 和 Web 双模式
 
 ## 技术栈
 
-<div class="tech-stack">
-- **仓库**
-- **分析**
-</div>
+- **TypeScript**
+- **Express**
+- **React 19**
+- **Recharts**
+- **simple-git**
+- **Anthropic SDK**
 
 ## 项目状态
 
@@ -28,9 +38,23 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 - **分类**: 开发工具
 
 
+## 快速开始
+
+### 安装
+
+```bash
+pnpm install
+```
+
+### 运行
+
+```bash
+pnpm install && pnpm build
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/reposcope)
+- [GitHub 仓库](${GH}/reposcope)
 
 
 <div class="back-to-projects">

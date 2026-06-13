@@ -11,17 +11,26 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 codesnap
+## 项目简介
 
-代码截图工具 — 生成美观的代码分享图片
+代码截图工具 — 生成美观的代码分享图片，类似 Carbon。
+
+## 功能特性
+
+- 多语言语法高亮
+- 可自定义主题和样式
+- 窗口装饰效果
+- 导出 PNG 图片
+- CodeMirror 6 编辑器
 
 ## 技术栈
 
-<div class="tech-stack">
-- **代码**
-- **截图**
-- **分享**
-</div>
+- **React 19**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS v4**
+- **CodeMirror 6**
+- **html-to-image**
 
 ## 项目状态
 
@@ -29,9 +38,23 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 - **分类**: 开发工具
 
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install
+```
+
+### 运行
+
+```bash
+npm install && npm run dev
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/codesnap)
+- [GitHub 仓库](${GH}/codesnap)
 
 
 <div class="back-to-projects">

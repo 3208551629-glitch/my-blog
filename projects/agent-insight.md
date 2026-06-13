@@ -11,16 +11,23 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 agent-insight
+## 项目简介
 
-Agent 洞察分析工具
+Agent 洞察分析工具 — AI 代理分析和洞察工具。
+
+## 功能特性
+
+- AI 代理性能分析
+- 执行流程可视化
+- 成本和效率洞察
+- 多代理对比分析
+- 实时监控和告警
 
 ## 技术栈
 
-<div class="tech-stack">
-- **AI**
-- **分析**
-</div>
+- **TypeScript**
+- **Node.js**
+- **Anthropic SDK**
 
 ## 项目状态
 
@@ -28,9 +35,23 @@ Agent 洞察分析工具
 - **分类**: AI/Agent
 
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install
+```
+
+### 运行
+
+```bash
+npm install && npm run dev
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/agent-insight)
+- [GitHub 仓库](${GH}/agent-insight)
 
 
 <div class="back-to-projects">

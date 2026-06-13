@@ -11,17 +11,24 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 apikit
+## 项目简介
 
-API 工具包 — 接口测试、快速构建、可视化、差异对比、哨兵监控、Webhook 测试
+API 工具包 — 接口测试、快速构建、可视化、差异对比、哨兵监控、Webhook 测试。一站式 API 开发工具。
+
+## 功能特性
+
+- API Forge：从 OpenAPI 规范生成 Mock 服务器
+- API Test：自动化接口测试
+- API Diff：版本差异对比
+- API Sentinel：本地 API 监控和测试平台
+- Webhook 测试：模拟和测试 Webhook 接收
 
 ## 技术栈
 
-<div class="tech-stack">
-- **API**
-- **CLI**
-- **测试**
-</div>
+- **TypeScript**
+- **Node.js**
+- **Commander.js**
+- **Zod**
 
 ## 项目状态
 
@@ -29,9 +36,23 @@ API 工具包 — 接口测试、快速构建、可视化、差异对比、哨�
 - **分类**: 工具包
 
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install -g @toolkits/apikit
+```
+
+### 运行
+
+```bash
+cd packages/apikit && pnpm build && pnpm test
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/toolkits)
+- [GitHub 仓库](${GH}/toolkits)
 
 
 <div class="back-to-projects">

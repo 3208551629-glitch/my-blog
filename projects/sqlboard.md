@@ -11,16 +11,25 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 sqlboard
+## 项目简介
 
-SQL 工作台 — 数据库管理 Web 界面
+SQL 工作台 — 数据库管理 Web 界面，支持 SQLite、PostgreSQL、MySQL。
+
+## 功能特性
+
+- 多数据库支持
+- Web 界面查询执行
+- 数据导入导出
+- 连接管理
+- REST API 接口
 
 ## 技术栈
 
-<div class="tech-stack">
-- **SQL**
-- **数据库**
-</div>
+- **TypeScript**
+- **Express**
+- **better-sqlite3**
+- **MySQL2**
+- **PostgreSQL**
 
 ## 项目状态
 
@@ -28,9 +37,23 @@ SQL 工作台 — 数据库管理 Web 界面
 - **分类**: 开发工具
 
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install
+```
+
+### 运行
+
+```bash
+npm install && npm run dev
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/sqlboard)
+- [GitHub 仓库](${GH}/sqlboard)
 
 
 <div class="back-to-projects">

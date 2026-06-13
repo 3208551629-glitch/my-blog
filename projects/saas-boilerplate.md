@@ -11,18 +11,26 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 saas-boilerplate
+## 项目简介
 
-SaaS 项目脚手架 — Next.js + Stripe + Prisma 全栈模板
+SaaS 项目脚手架 — Next.js + Stripe + Prisma 全栈模板。
+
+## 功能特性
+
+- NextAuth v5 认证
+- Stripe 支付集成
+- AI 聊天功能
+- 订阅管理
+- Prisma ORM + SQLite
 
 ## 技术栈
 
-<div class="tech-stack">
-- **SaaS**
-- **脚手架**
 - **Next.js**
+- **React 19**
+- **TypeScript**
+- **Prisma**
 - **Stripe**
-</div>
+- **NextAuth v5**
 
 ## 项目状态
 
@@ -30,9 +38,23 @@ SaaS 项目脚手架 — Next.js + Stripe + Prisma 全栈模板
 - **分类**: SaaS/Web
 - **精选项目**: ⭐
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install
+```
+
+### 运行
+
+```bash
+npm install && npm run db:push && npm run dev
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/saas-boilerplate)
+- [GitHub 仓库](${GH}/saas-boilerplate)
 
 
 <div class="back-to-projects">

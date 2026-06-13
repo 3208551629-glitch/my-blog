@@ -11,17 +11,24 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 promptkit
+## 项目简介
 
-Prompt 工程工具包 — 提示词测试、优化锻造、对比评估、模板管理
+Prompt 工程工具包 — 提示词测试、优化锻造、对比评估、模板管理。
+
+## 功能特性
+
+- 提示词测试框架
+- 提示词优化和锻造
+- 多模型对比评估
+- 模板管理和版本控制
+- 支持 Anthropic 和 OpenAI
 
 ## 技术栈
 
-<div class="tech-stack">
-- **Prompt**
-- **AI**
-- **测试**
-</div>
+- **TypeScript**
+- **Node.js**
+- **Anthropic SDK**
+- **OpenAI SDK**
 
 ## 项目状态
 
@@ -29,9 +36,23 @@ Prompt 工程工具包 — 提示词测试、优化锻造、对比评估、模�
 - **分类**: 工具包
 
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install -g @toolkits/promptkit
+```
+
+### 运行
+
+```bash
+cd packages/promptkit && pnpm build && pnpm test
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/toolkits)
+- [GitHub 仓库](${GH}/toolkits)
 
 
 <div class="back-to-projects">

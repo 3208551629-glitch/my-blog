@@ -11,17 +11,24 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 flowkit
+## 项目简介
 
-工作流引擎 — 工作流编排、Agent 代理执行、项目规划、自动化构建、AI 内容生成
+工作流引擎 — 工作流编排、Agent 代理执行、项目规划、自动化构建、AI 内容生成。
+
+## 功能特性
+
+- 可视化工作流编排
+- Agent 代理执行引擎
+- 项目规划和自动化构建
+- AI 内容生成工作流
+- 支持 HTTP/Shell/文件节点
 
 ## 技术栈
 
-<div class="tech-stack">
-- **工作流**
-- **Agent**
-- **AI**
-</div>
+- **TypeScript**
+- **Node.js**
+- **Zod**
+- **Commander.js**
 
 ## 项目状态
 
@@ -29,9 +36,23 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 - **分类**: 工具包
 
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install -g @toolkits/flowkit
+```
+
+### 运行
+
+```bash
+cd packages/flowkit && pnpm build && pnpm test
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/toolkits)
+- [GitHub 仓库](${GH}/toolkits)
 
 
 <div class="back-to-projects">

@@ -11,16 +11,24 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 invoice-chaser
+## 项目简介
 
-发票追踪工具
+发票追踪工具 — AI 自动写催款邮件并定时发送。
+
+## 功能特性
+
+- AI 自动生成催款邮件
+- 定时发送任务
+- 发票状态追踪
+- 邮件模板管理
+- FastAPI + Vue3 全栈
 
 ## 技术栈
 
-<div class="tech-stack">
-- **发票**
-- **财务**
-</div>
+- **FastAPI**
+- **Vue 3**
+- **DeepSeek API**
+- **Celery**
 
 ## 项目状态
 
@@ -28,9 +36,23 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 - **分类**: SaaS/Web
 
 
+## 快速开始
+
+### 安装
+
+```bash
+pip install -r requirements.txt && npm install
+```
+
+### 运行
+
+```bash
+npm install && npm run dev
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/invoice-chaser)
+- [GitHub 仓库](${GH}/invoice-chaser)
 
 
 <div class="back-to-projects">

@@ -11,17 +11,25 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 chazhao
+## 项目简介
 
-查找工具 — RAG 知识助手
+查找工具 — RAG 知识助手，上传文档后用 AI 回答问题。
+
+## 功能特性
+
+- 文档上传和解析
+- 向量数据库存储
+- 语义搜索
+- AI 问答
+- FastAPI + Vue3 全栈
 
 ## 技术栈
 
-<div class="tech-stack">
-- **RAG**
-- **搜索**
 - **FastAPI**
-</div>
+- **Vue 3**
+- **ChromaDB**
+- **LlamaIndex**
+- **OpenAI**
 
 ## 项目状态
 
@@ -29,9 +37,23 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 - **分类**: SaaS/Web
 
 
+## 快速开始
+
+### 安装
+
+```bash
+pip install -r requirements.txt && npm install
+```
+
+### 运行
+
+```bash
+cd backend && pip install -r requirements.txt && uvicorn app.main:app --reload
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/chazhao)
+- [GitHub 仓库](${GH}/chazhao)
 
 
 <div class="back-to-projects">

@@ -11,17 +11,24 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 localize-ai
+## 项目简介
 
-AI 本地化翻译工具
+AI 本地化翻译工具 — 自动翻译各种格式的翻译文件。
+
+## 功能特性
+
+- 支持多种文件格式翻译
+- AI 驱动的上下文感知翻译
+- 批量翻译处理
+- 翻译质量评估
+- 支持多种目标语言
 
 ## 技术栈
 
-<div class="tech-stack">
-- **AI**
-- **本地化**
-- **翻译**
-</div>
+- **Next.js**
+- **React 19**
+- **TypeScript**
+- **OpenAI API**
 
 ## 项目状态
 
@@ -29,9 +36,23 @@ AI 本地化翻译工具
 - **分类**: AI/Agent
 
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install
+```
+
+### 运行
+
+```bash
+npm install && npm run dev
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/localize-ai)
+- [GitHub 仓库](${GH}/localize-ai)
 
 
 <div class="back-to-projects">

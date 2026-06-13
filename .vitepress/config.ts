@@ -25,6 +25,7 @@ export default defineConfig({
       { text: '标签', link: '/tags/' },
       { text: '工具', link: '/codesnap/' },
       { text: '项目集', link: '/projects/' },
+      { text: '更新记录', link: '/changelog/' },
       { text: '关于', link: '/about/' }
     ],
 

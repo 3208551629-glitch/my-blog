@@ -2,6 +2,7 @@
 import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import BackToTop from './components/BackToTop.vue'
+import HomeUpdateInfo from './components/HomeUpdateInfo.vue'
 
 const { frontmatter, isDark } = useData()
 const { Layout } = DefaultTheme
@@ -9,9 +10,9 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
-    <!-- 自定义首页 -->
-    <template #home-hero-before>
-      <slot name="home-hero-before" />
+    <!-- 首页底部信息 -->
+    <template #home-features-after>
+      <HomeUpdateInfo />
     </template>
 
     <!-- 自定义页脚 -->

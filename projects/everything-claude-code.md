@@ -11,17 +11,25 @@ import ProjectDetail from '../.vitepress/theme/components/ProjectDetail.vue'
 
 <ProjectDetail />
 
-## 关于 everything-claude-code
+## 项目简介
 
-Claude Code 全能工具集 — 47 个 Agent、181 个 Skill、自动 Hook 工作流
+Claude Code 全能工具集 — 47 个 Agent、181 个 Skill、自动 Hook 工作流。完整的 Claude Code 插件生态。
+
+## 功能特性
+
+- 47 个预配置 Agent
+- 181 个实用 Skill
+- 自动 Hook 工作流
+- 多语言支持（12+ 生态系统）
+- 安全扫描和 TDD 工作流
 
 ## 技术栈
 
-<div class="tech-stack">
-- **AI**
-- **Claude**
-- **工具集**
-</div>
+- **Node.js**
+- **TypeScript**
+- **Python**
+- **Rust**
+- **Shell**
 
 ## 项目状态
 
@@ -29,9 +37,23 @@ Claude Code 全能工具集 — 47 个 Agent、181 个 Skill、自动 Hook 工�
 - **分类**: AI/Agent
 - **精选项目**: ⭐
 
+## 快速开始
+
+### 安装
+
+```bash
+npm install -g ecc-universal
+```
+
+### 运行
+
+```bash
+npm install && npm link
+```
+
 ## 相关链接
 
-- [GitHub 仓库](https://github.com/3208551629-glitch/everything-claude-code)
+- [GitHub 仓库](${GH}/everything-claude-code)
 
 
 <div class="back-to-projects">
