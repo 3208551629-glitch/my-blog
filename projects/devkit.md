@@ -53,7 +53,9 @@ cd packages/devkit && pnpm build && pnpm test
 
 ## 使用示例
 
-devkit `<command>` [options]
+```bash
+devkit <command> [options]
+```
 
 ## 适用场景
 

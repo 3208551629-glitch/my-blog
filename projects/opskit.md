@@ -54,7 +54,9 @@ cd packages/opskit && pnpm build && pnpm test
 
 ## 使用示例
 
-opskit `<command>` [options]
+```bash
+opskit <command> [options]
+```
 
 ## 适用场景
 

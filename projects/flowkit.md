@@ -53,7 +53,9 @@ cd packages/flowkit && pnpm build && pnpm test
 
 ## 使用示例
 
-flowkit `<command>` [options]
+```bash
+flowkit <command> [options]
+```
 
 ## 适用场景
 

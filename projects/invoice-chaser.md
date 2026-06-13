@@ -53,7 +53,9 @@ npm install && npm run dev
 
 ## 使用示例
 
+```bash
 npm run dev
+```
 
 ## 适用场景
 

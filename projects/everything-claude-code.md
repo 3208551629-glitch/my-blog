@@ -56,7 +56,9 @@ npm install && npm link
 
 ## 使用示例
 
+```bash
 安装后配置到 ~/.claude/ 目录
+```
 
 ## 适用场景
 

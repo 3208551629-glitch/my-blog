@@ -55,7 +55,9 @@ pnpm install && pnpm build
 
 ## 使用示例
 
+```bash
 pnpm build && pnpm dev
+```
 
 ## 适用场景
 

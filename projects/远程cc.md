@@ -53,7 +53,9 @@ npm install && npm start
 
 ## 使用示例
 
+```bash
 npm start
+```
 
 ## 适用场景
 

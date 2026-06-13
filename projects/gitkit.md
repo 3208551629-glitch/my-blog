@@ -53,7 +53,9 @@ cd packages/gitkit && pnpm build && pnpm test
 
 ## 使用示例
 
-gitkit `<command>` [options]
+```bash
+gitkit <command> [options]
+```
 
 ## 适用场景
 

@@ -57,12 +57,14 @@ cd packages/xf && pnpm build && pnpm test
 
 ## 使用示例
 
-xf `<command>` [options]
+```bash
+xf <command> [options]
 
 # 示例
 xf jsonformat data.json --pretty
 xf hashtool file.txt --algorithm sha256
 xf colorconvert #FF5733 --to hsl
+```
 
 ## 适用场景
 

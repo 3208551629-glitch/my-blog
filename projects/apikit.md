@@ -54,7 +54,9 @@ cd packages/apikit && pnpm build && pnpm test
 
 ## 使用示例
 
-apikit `<command>` [options]
+```bash
+apikit <command> [options]
+```
 
 ## 适用场景
 

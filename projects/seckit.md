@@ -53,7 +53,9 @@ cd packages/seckit && pnpm build && pnpm test
 
 ## 使用示例
 
-seckit `<command>` [options]
+```bash
+seckit <command> [options]
+```
 
 ## 适用场景
 

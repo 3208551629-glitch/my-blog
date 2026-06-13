@@ -53,7 +53,9 @@ cd packages/promptkit && pnpm build && pnpm test
 
 ## 使用示例
 
-promptkit `<command>` [options]
+```bash
+promptkit <command> [options]
+```
 
 ## 适用场景
 

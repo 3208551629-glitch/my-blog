@@ -54,7 +54,9 @@ cd backend && pip install -r requirements.txt && uvicorn app.main:app --reload
 
 ## 使用示例
 
+```bash
 后端: uvicorn app.main:app --reload, 前端: npm run dev
+```
 
 ## 适用场景
 
