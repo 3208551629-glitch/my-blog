@@ -6,6 +6,15 @@ title: 归档
 
 ## 2026年
 
+### 6月
+
+- **24日** [《刻意练习》读书笔记](/posts/deliberate-practice-review) · 读书笔记
+- **24日** [《非暴力沟通》读书笔记](/posts/nonviolent-communication-review) · 读书笔记
+- **24日** [《高效能人士的七个习惯》读书笔记](/posts/seven-habits-review) · 读书笔记
+- **24日** [《思考，快与慢》读书笔记](/posts/thinking-fast-and-slow-review) · 读书笔记
+- **24日** [《穷查理宝典》读书笔记](/posts/poor-charlies-almanack-review) · 读书笔记
+- **24日** [值得反复阅读的几本好书](/posts/good-books-recommendation) · 随笔
+
 ### 4月
 
 - **20日** [Claude Code 入门指南](/posts/claude-code-intro) · 技术

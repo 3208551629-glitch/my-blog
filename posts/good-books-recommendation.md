@@ -155,7 +155,15 @@ pinned: true
 
 ## 延伸阅读
 
-之前写过两篇更详细的读书笔记，感兴趣的可以深入看看：
+这五本书我已经分别写了深度读书笔记，感兴趣的可以逐一深入：
+
+- [《高效能人士的七个习惯》读书笔记](/posts/seven-habits-review) —— 从依赖到独立到互赖的成长地图
+- [《穷查理宝典》读书笔记](/posts/poor-charlies-almanack-review) —— 构建你的思维模型武器库
+- [《思考，快与慢》读书笔记](/posts/thinking-fast-and-slow-review) —— 你的大脑一直在骗你
+- [《非暴力沟通》读书笔记](/posts/nonviolent-communication-review) —— 90% 的矛盾来自不会说话
+- [《刻意练习》读书笔记](/posts/deliberate-practice-review) —— 天才不是天生的，是练出来的
+
+另外还有之前写的两篇：
 
 - [《穷爸爸富爸爸》读书笔记](/posts/rich-dad-poor-dad-review) —— 资产和负债的区分，是改变财务认知的第一步
 - [《从0到1》读书笔记](/posts/zero-to-one-review) —— 竞争是失败者的游戏，创新才是真正的壁垒

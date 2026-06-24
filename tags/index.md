@@ -4,6 +4,44 @@ title: 标签
 
 # 标签
 
+## 读书笔记 (7)
+
+- [《刻意练习》读书笔记](/posts/deliberate-practice-review)
+- [《非暴力沟通》读书笔记](/posts/nonviolent-communication-review)
+- [《高效能人士的七个习惯》读书笔记](/posts/seven-habits-review)
+- [《思考，快与慢》读书笔记](/posts/thinking-fast-and-slow-review)
+- [《穷查理宝典》读书笔记](/posts/poor-charlies-almanack-review)
+- [《从0到1》读书笔记](/posts/zero-to-one-review)
+- [《穷爸爸富爸爸》读书笔记](/posts/rich-dad-poor-dad-review)
+
+## 思维模型 (1)
+
+- [《穷查理宝典》读书笔记](/posts/poor-charlies-almanack-review)
+
+## 心理学 (1)
+
+- [《思考，快与慢》读书笔记](/posts/thinking-fast-and-slow-review)
+
+## 认知偏差 (1)
+
+- [《思考，快与慢》读书笔记](/posts/thinking-fast-and-slow-review)
+
+## 沟通 (1)
+
+- [《非暴力沟通》读书笔记](/posts/nonviolent-communication-review)
+
+## 学习方法 (1)
+
+- [《刻意练习》读书笔记](/posts/deliberate-practice-review)
+
+## 个人成长 (1)
+
+- [《高效能人士的七个习惯》读书笔记](/posts/seven-habits-review)
+
+## 读书 (1)
+
+- [值得反复阅读的几本好书](/posts/good-books-recommendation)
+
 ## Claude Code (3)
 
 - [Claude Code 入门指南](/posts/claude-code-intro)
