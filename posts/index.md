@@ -8,6 +8,12 @@ title: 文章列表
 
 ## 最新文章
 
+### 📌 [值得反复阅读的几本好书](/posts/good-books-recommendation)
+
+2026年6月24日 · 随笔
+
+读书是成本最低的自我投资。从《高效能人士的七个习惯》《穷查理宝典》《思考，快与慢》《非暴力沟通》《刻意练习》五本书出发，分享那些读完不是"知道了"而是"不一样了"的认知蜕变。
+
 ### 📌 [VitePress 博客自定义 Layout 实战](/posts/vitepress-layout-customization)
 
 2026年6月13日 · 项目实战
